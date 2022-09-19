@@ -1,11 +1,27 @@
-* {
-    box-sizing: border-box;}
+
 
 main {
         display: flex;
         margin-top: 2%;
 }
+
+head {
+    margin-right: 5%;
+
+}
+
+
+/* Brett's Profile Picture */
+.container {
+    display: flex;
+    background-color: black;
+    font-display: wrap;
+    flex-direction: column;
     
+
+}
+
+
 
 body {
     display: flex;
@@ -13,28 +29,79 @@ body {
     line-height: 1.3;
 }
 
-header {
+.header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 1%;
-    background-color: #085a15;
-    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    background-color:rgb(50, 56, 56);
+    color: rgb(0, 0, 0);
 }
 
+button{
+    display: flex;
+    justify-content: center;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: #247200;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 43%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
 h1 {
+    color: rgb(250, 250, 250);
     margin-left: 1%;
     font-size: 200%;
+    text-align: center;
 }
 
 h2 {
-    margin: 1% 2%;
-    font-size: 150%;
+    display: flex;  
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200%;
 }
 
+/* about me  */
+h3 {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 45%;
+    font-size: larger;
+    color:rgb(0, 0, 0);
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+h4 {
+    color: white;
+}
+
+
 p {
-    margin-left: 2%;
-    margin-bottom: 1%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    border-style:groove;
+    padding: 25px;
+    margin-left: 25px;
+
+}
+
+article{
+    margin: 5%;
 }
 
 ul {
@@ -45,38 +112,39 @@ li {
     margin-bottom: 1%;
 }
 
-
-.main header {
-    display: flex;
-    justify-content: space-between;
-    padding: 60px;
-    background: #008f4c;
-    color: #fff;
-  
+.article {
+    margin-right: 20%;
 }
 
 .card {
-    box-sizing: content-box;
-    display: inline-block;
-    margin-left: 2%;
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     border-style: solid;
+    width: 400px;
+    height: 300px;
     border-width: 1px;
-    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 1 100px;
+    margin-top: 20px;
 }
 
 .card header {
     text-indent: 100%;
     font-weight: 300;
-    padding: 20px;
     background: #247200;
     color: #fff;
 
 }
 
-.card img {
-}
+img {
+    display: flex;
+    width: 50%;
+    height: 50%%;
+    margin-left: 25%;
+  }
+
+
   
 
