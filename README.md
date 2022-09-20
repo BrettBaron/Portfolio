@@ -11,7 +11,7 @@ This was my first attempt at creatinng a website from scratch. Although I'm happ
 
 ## Installation
 
-C:\Users\brett\workspace\Portfolio\index.html
+(https://brettbaron.github.io/Portfolio/)
 
 ## Credits
 
@@ -23,8 +23,9 @@ This project is for training purposes.
 
 ## Link
 
- https://brettbaron.github.io/code-refractor/
+[ https://brettbaron.github.io/code-refractor/]
+(https://brettbaron.github.io/Portfolio/)
 
  ## Sample
-![alt text](assets/images/Horiseon.PNG)
+
 
